@@ -32,8 +32,8 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "email@gmail.com";
-$Subject = "New Message Received";
+$EmailTo = "kane@snatchcredit.com";
+$Subject = "Inquiry for new listing";
 
 // prepare email body text
 $Body = "";
@@ -63,5 +63,3 @@ if ($success && $errorMSG == ""){
         echo $errorMSG;
     }
 }
-
-?>
