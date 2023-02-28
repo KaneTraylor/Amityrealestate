@@ -1,47 +1,69 @@
-body{
-	background-color:#FFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-	font-size:14px;
-	line-height:18px;
-	color:#000;
+body {
+  background-color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
 }
 
-ul, ol{
-	margin:0;
-	padding:0;
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
 
-p{
-	margin:0;
+p {
+  margin: 0;
 }
 
 a {
-  color: #0dcdbd;
+  color: #098f2b;
 }
 
-a, a:hover, a:focus{
-	text-decoration: none;
-	outline: 0;
-}
-h1, h2, h3,
-h4, h5, h6{
-	margin:0;
-    font-weight: normal;
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: 0;
 }
 
-h1 { font-size: 28px;}
-h2 { font-size: 24px;}
-h3 { font-size: 18px;}
-h5 { font-size: 16px;}
-h6 { font-size: 14px;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
 
 strong {
   letter-spacing: 1px;
 }
 
 code {
-  font-family: monaco,consolas,monospace,serif;
+  font-family: monaco, consolas, monospace, serif;
   background-color: #ddd;
   border-radius: 3px;
   color: #000;
@@ -57,30 +79,32 @@ section p {
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
-}
-.clearfix:after {
-    clear: both;
-}
-.clearfix {
-    *zoom: 1;
+  content: " ";
+  display: table;
 }
 
-.tan{
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.tan {
   margin-bottom: 10px;
 }
 
-.fifteen{
+.fifteen {
   margin-bottom: 15px;
 }
 
-.twenty{
+.twenty {
   margin-bottom: 20px;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .title {
@@ -123,7 +147,7 @@ section p {
   padding: 10px 0 10px 30px;
   text-align: left;
   border-bottom: 1px solid transparent;
-    
+
   -webkit-transition: all 0.3s ease-in 0s;
   -moz-transition: all 0.3s ease-in 0s;
   -ms-transition: all 0.3s ease-in 0s;
@@ -131,7 +155,8 @@ section p {
   transition: all 0.3s ease-in 0s;
 }
 
-.left-nav ul li a:hover, .left-nav ul li.ui-tabs-active a {
+.left-nav ul li a:hover,
+.left-nav ul li.ui-tabs-active a {
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   color: #0dcdbd;
@@ -167,7 +192,7 @@ section p {
   margin-bottom: 15px;
 }
 
-.features > ul {
+.features>ul {
   padding-left: 18px;
 }
 
@@ -215,16 +240,3 @@ section p {
   margin-top: 10px;
   max-width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
